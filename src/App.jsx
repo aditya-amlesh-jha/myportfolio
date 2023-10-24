@@ -7,6 +7,7 @@ import NotFound from './NotFound/NotFound.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import Contact from './Contact/Contact.jsx'
 import Experience from './Experience/Experience.jsx'
+import Projects from './Projects/Projects.jsx'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/experience" element={<Experience/>}/>
+        <Route path="/projects" element={<Projects/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
