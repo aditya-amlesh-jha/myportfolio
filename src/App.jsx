@@ -6,6 +6,7 @@ import Home from './Home/Home.jsx'
 import NotFound from './NotFound/NotFound.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import Contact from './Contact/Contact.jsx'
+import Experience from './Experience/Experience.jsx'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/experience" element={<Experience/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
