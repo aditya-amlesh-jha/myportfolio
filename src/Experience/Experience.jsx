@@ -11,7 +11,7 @@ const Experience = () => {
             date: "Sep, 2022 - Present",
             type: "FTC",
             location: "Mumbai",
-            href: "javascript:void(0)"
+            // href: "javascript:void(0)"
         },
         {
             title: "SDE Intern - TalentDesk",
@@ -21,7 +21,7 @@ const Experience = () => {
             date: "Aug, 2023 - Sep, 2023",
             type: "Full-time",
             location: "Remote",
-            href: "javascript:void(0)"
+            // href: "javascript:void(0)"
         },
         {
             title: "Production Support Trainee - Wiley Edge",
@@ -33,7 +33,7 @@ const Experience = () => {
             date: "May, 2023 - Aug, 2023",
             type: "FTE",
             location: "Remote",
-            href: "javascript:void(0)"
+            // href: "javascript:void(0)"
         },
     ]
 
@@ -43,7 +43,7 @@ const Experience = () => {
                 {
                     jobs.map((item, idx) => (
                         <li key={idx} className="p-5 bg-gray-700 rounded-md shadow-sm">
-                            <a href={item.href}>
+                            {/* <a href={item.href}> */}
                                 <div>
                                     <div className="justify-between sm:flex">
                                         <div className="flex-1">
@@ -83,7 +83,7 @@ const Experience = () => {
                                         </span>
                                     </div>
                                 </div>
-                            </a>
+                            {/* </a> */}
                         </li>
                     ))
                 }
