@@ -9,14 +9,14 @@ const Footer = () => {
 
     return (
 
-        <footer class="bg-black">
-            <div class="w-full mx-auto max-w-screen-xl p-4">
-                <ul class="flex items-center justify-center">
+        <footer className="bg-black">
+            <div className="w-full mx-auto max-w-screen-xl p-4">
+                <ul className="flex items-center justify-center">
                     {
                         links.map((item, idx) => {
                             return (
                                 <li key={idx}>
-                                    <a href={item.link} class="mr-4 text-gray-100 hover:text-indigo-600 md:mr-6 ">{item.title}</a>
+                                    <a href={item.link} className="mr-4 text-gray-100 hover:text-indigo-600 md:mr-6 ">{item.title}</a>
                                 </li>
                             )
                         })

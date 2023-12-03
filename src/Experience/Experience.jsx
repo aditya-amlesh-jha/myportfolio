@@ -1,5 +1,7 @@
 const Experience = () => {
 
+    document.title="Experience - Aditya Jha";
+
     const jobs = [
         {
             title: "Reliability & Production Engineer - Morgan Stanley",
