@@ -16,7 +16,7 @@ const Footer = () => {
                         links.map((item, idx) => {
                             return (
                                 <li key={idx}>
-                                    <a href={item.link} class="mr-4 text-gray-500 hover:text-indigo-600 md:mr-6 ">{item.title}</a>
+                                    <a href={item.link} class="mr-4 text-gray-100 hover:text-indigo-600 md:mr-6 ">{item.title}</a>
                                 </li>
                             )
                         })
