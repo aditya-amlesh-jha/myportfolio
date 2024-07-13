@@ -59,8 +59,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="hidden md:inline-block">
-                    <Link to="/contact" className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow">
-                        Contact
+                    <Link to="/authentication" className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow">
+                        Sign Up
                     </Link>
                 </div>
             </div>

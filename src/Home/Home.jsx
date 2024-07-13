@@ -4,19 +4,19 @@ const Home = () => {
 
     return (
         <>
-                <section className="bg-gray-900 min-h-screen">
-                    <div className="mx-auto  pt-24 pb-4 px-4 sm:px-8">
+                <section className="bg-gray-900 min-h-screen flex items-center justify-center">
+                    <div className="mx-auto px-4 sm:px-8">
                         <div className="text-center space-y-4">
 
-                            <img class="rounded w-36 h-36 mx-auto rounded-full" src="https://www.svgrepo.com/show/65453/avatar.svg" alt="Extra large avatar" />
+                            <img class="rounded w-36 h-36 mx-auto rounded-full object-cover" src="./image/myphoto.jpg" alt="Extra large avatar" />
 
                             <h1 className="text-gray-50 font-bold text-4xl md:text-5xl">
                                 Hi, I am
                                 <span className="text-indigo-600"> Aditya Jha</span>
                             </h1>
-                            <p className="text-indigo-200">Site Reilability Engineer</p>
+                            <p className="text-indigo-200">Software Development Engineer</p>
                             <p className="text-gray-100 max-w-xl mx-auto leading-relaxed">
-                                Greetings! I'm a dedicated Site Reliability Engineer (SRE) on a mission to transform intricate systems into unstoppable, high-performance powerhouses. With a rock-solid foundation in both software development and IT operations, I'm the dynamic bridge that connects the realms of development and production, ensuring the seamless delivery of bulletproof services.
+                                Greetings! I'm a Software Engineer on a mission to transform intricate systems into unstoppable, high-performance powerhouses. With a rock-solid foundation in both software development and IT operations, I'm the dynamic bridge that connects the realms of development and production, ensuring the seamless delivery of bulletproof services.
                             </p>
                         </div>
                         {/* <div className="mt-12 justify-center items-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex">

@@ -4,43 +4,31 @@ const Experience = () => {
 
     const jobs = [
         {
-            title: "Reliability & Production Engineer - Morgan Stanley",
-            desc: `Made scripts to find errors in logs in few minutes saving hours of manually doing it
+            title: "Site Reliability Engineer - Morgan Stanley",
+            desc: `Migrated old services to new platforms seamlessly through containerization
             Automated finding pending processes through SQL commands instead of going through alerts
             Made scripts to lauch tons of process at once in seconds instead of manually trigerring them
             used data processing techniques to extract useful info from alerts
             Worked with devs, testers and assisted them in deploying new changes and helped them pinpoint root cause in production in case someting goes wrong`,
-            date: "Sep, 2022 - Present",
+            date: "Sep, 2023 - Present",
             type: "FTC",
             location: "Mumbai",
-            // href: "javascript:void(0)"
         },
         {
-            title: "SDE Intern - TalentDesk",
-            desc: `Transformed the founder's product idea into a website through use of Full Stack technologies
-            Worked on website development and deployment
-            Helped setup hosting and dns configuration`,
-            date: "Aug, 2023 - Sep, 2023",
-            type: "Full-time",
-            location: "Remote",
-            // href: "javascript:void(0)"
-        },
-        {
-            title: "Production Support Trainee - Wiley Edge",
+            title: "Site Reliability Engineer - Wiley Edge",
             desc: `Followed MVC architecture and Rest Api in application to ensure scalability
             Setup a pipeline from GitHub to Elastic beanstalk to ensure updated changes are reflected
             Worked on e2 instances of AWS to host a full stack application
             Used scripting to automate running of application
             Containerized applications and used Kubernetes for deploying them`,
             date: "May, 2023 - Aug, 2023",
-            type: "FTE",
+            type: "Intern",
             location: "Remote",
-            // href: "javascript:void(0)"
         },
     ]
 
     return (
-        <section className="bg-gray-900 min-h-screen p-5">
+        <section className="bg-gray-900 min-h-screen p-5 flex items-center justify-center ">
             <ul className="space-y-6 max-w-screen-lg mx-auto">
                 {
                     jobs.map((item, idx) => (
